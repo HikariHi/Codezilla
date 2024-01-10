@@ -1,0 +1,23 @@
+h1 {
+    background-color: #601cfc;
+    color: whitesmoke;
+    text-decoration-line: underline;
+}
+
+/* nice purple 
+#601cfc */
+
+p {
+    color: purple;
+}
+
+hr { 
+    /* border-width: 2px;
+    border-color: black;  But still some grey color which is the border style whihs is by default
+    border-style: dashed; */
+    border: 2px solid black;
+}
+/* w3schools.com
+html & css tags, colors ... */
+
+/* 53:51 */
