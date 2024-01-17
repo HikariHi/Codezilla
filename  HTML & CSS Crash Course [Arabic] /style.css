@@ -20,3 +20,13 @@ hr {
 /* w3schools.com
 html & css tags, colors ... */
 
+ul {
+    list-style: none;
+}
+
+#hr2 {
+    border-color: purple; /* changing only one thing from previous styling is called cscading style sheet */
+}
+
+/* 1:07:30 */
+
