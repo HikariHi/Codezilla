@@ -28,5 +28,11 @@ ul {
     border-color: purple; /* changing only one thing from previous styling is called cscading style sheet */
 }
 
-/* 1:07:30 */
+span {
+    font-weight: bold;
+    color: red;
+}
+
+/* resposive web design */
+/* 1:27:00 */
 

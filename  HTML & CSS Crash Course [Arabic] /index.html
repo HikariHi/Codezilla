@@ -8,24 +8,30 @@
 </head>
 
 <body>
-    <h1>Voice</h1> <!-- Block elements -->
-    <img src="images/photo_2024-01-08_17-55-41.jpg" alt="تعليق صوتي"/> <!-- Inline elements -->
-    
-    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, magnam, atque perferendis quibusdam distinctio laborum consequatur quaerat at repellendus expedita odit incidunt, eum hic? Error nihil nisi accusantium doloribus quod!</p> <!-- Block elements -->
-    <hr> <!-- Horizontal rule -->
+    <div><!-- used to seperate the website to parts so we can modify them and it shares some styles-->
+        <h1>Voice</h1> <!-- Block elements -->
+        <img src="images/photo_2024-01-08_17-55-41.jpg" alt="تعليق صوتي"/> <!-- Inline elements -->
+        
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, magnam, atque perferendis quibusdam distinctio laborum consequatur quaerat at repellendus expedita odit incidunt, eum hic? Error nihil nisi accusantium doloribus quod!</p> <!-- Block elements -->
+        <hr> <!-- Horizontal rule -->
 
-    <!-- Block elements vs inline elements -->
+        <!-- Block elements vs inline elements -->
 
-    <!-- Semantic web for people with health problems -->
+        <!-- Semantic web for people with health problems -->
 
-    <ul> <!-- ul not mndma ol mndma -->
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit amet consectetur.</li>
-    </ul>
-    <hr id="hr2">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A qui autem reprehenderit rerum perferendis consequuntur perspiciatis cumque at quo cupiditate!</p>
+        <ul> <!-- ul not mndma ol mndma -->
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+        </ul>
+        <hr id="hr2">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A qui autem reprehenderit rerum perferendis 
+            <span id="word">consequuntur</span>
+            perspiciatis <a href="#" target="_blank">cumque</a> at quo cupiditate!
+        </p> <!--instead of span and css font-weight we can use strong and strong is a semantic and span is not semantic -->
+    </div>
 </body>
 
 </html>
