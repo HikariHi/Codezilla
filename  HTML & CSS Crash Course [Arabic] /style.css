@@ -15,9 +15,10 @@ html, body {
 }
 /* @media aka media queries to make responsive website using pixels*/
 h1 {
-    background-color: #601cfc;
-    color: whitesmoke;
+    color: #f0f0f0;
     text-decoration-line: underline;
+    border: 4px solid black;
+    padding: 5px;
 }
 
 /* nice purple 
@@ -50,5 +51,11 @@ span {
 }
 
 /* resposive web design */
-/* 1:42:00 */
+
+
+/* things cs be simple only if you take a look for example
+padding vs margin
+don't let anything stop you */
+
+/* 1:49:00 */
 
